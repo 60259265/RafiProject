@@ -1,0 +1,433 @@
+.index{
+    border-style: groove;
+    border-color: gray;
+   border-width: 1px;
+   width: 100%;
+   padding-top: 0px;
+}
+.index1{
+    background-image: url(../Call-to-action.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    
+}
+.barre{
+    text-decoration: none;
+    padding-top: 50px;
+    color: black;
+    
+}
+
+.menu{
+    padding-left: 850px;
+    text-decoration: none;
+    text-decoration-color: black;
+    
+}
+.part1{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.section2{
+    display: flex;
+    background-color: rgb(234, 225, 225);
+    margin-left: 0px;
+    margin-right: 500px;
+    margin-bottom: 0px;
+    gap: 20px;
+    padding-top: 100px;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: small;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.section4{
+    background-image: url(../Call-to-action.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.photo{
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 100px;
+
+}
+.footer{
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.footer2{
+    border: 2px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: xx-small;
+    color: black;
+}
+    /*page connexion*/
+.form{
+    text-align: center;
+}
+.Formulaire{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    /*page contact*/
+    .contact{
+        background-image: url(Call-to-action.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .barre{
+        text-decoration: none;
+        padding-top: 30px;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+    .menu{
+            
+            text-decoration: none;
+            text-decoration-color: black;
+            padding-top: 0px;
+        
+    }
+    .section2{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 150px;
+    }
+    .part2{
+        margin-left: 100px;
+        margin-right: 300px;
+    }
+    .Email{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .number{
+        display: flex;
+        justify-content: space-between;
+           
+    }
+    .adreess{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        border-top: 1px;
+    }
+        /*page product*/
+        .section1{
+            height: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            background-color: white; border-bottom: 2px solid gray; 
+        }
+        .barre{
+            text-decoration: none;
+            padding-top: 30px;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 100px;
+        }
+        .menu{
+                
+            text-decoration: none;
+            text-decoration-color: black;
+            padding-top: 0px;
+            }
+        .section2{
+            display: flex;
+            justify-content: space-between;
+            gap: 70px;
+            margin-top: 100px;
+            margin-left: 50px;
+            margin-right: 100px;
+            margin-bottom: 100px;
+        }
+        .section3{
+            color: rgb(41, 40, 40);
+            margin-left: 50px;
+            margin-right: 100px;
+        }
+        .section4{
+            margin-left: 50px;
+            margin-right: 100px;
+            margin-bottom: 100px;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            height: 20px;
+            text-align: center;
+            background-color: white;
+            border-top: 1px;
+        }
+            /*page shop*/
+            .section1{
+                height: 100px;
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100%;
+                background-color: white; border-bottom: 2px solid gray; 
+            }
+            .barre{
+                text-decoration: none;
+                padding-top: 30px;
+                color: black;
+                display: flex;
+                justify-content: space-between;
+                margin-right: 100px;
+            }
+            .menu{
+                    
+                text-decoration: none;
+                text-decoration-color: black;
+                padding-top: 0px;
+            
+            }
+            .section2{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 50px;
+                margin-bottom: 100px;
+               
+            }
+            .ligne1{
+                display: flex;
+                gap: 30px;
+            }
+            .ligne2{
+                display: flex;
+                gap: 30px;
+            }
+            .ligne3{
+                display: flex;
+                gap: 30px;
+            }
+            .ligne4{
+                display: flex;
+                gap: 30px;
+            }
+            .form{
+                display: flex;
+                justify-content: space-between;
+            }
+            .part1{
+                background-color: #ffffff; border-right: 2px solid gray; 
+                margin-left: 100px;
+                padding-right: 100px;
+            
+            }
+            .Search{
+                display: flex;
+                justify-content: space-between;
+                gap: 25px;
+                
+                
+            }
+            .part2{
+                margin-right: 100px;
+            }
+            .search-icon:hover{
+                background-color: rgb(1, 24, 1);
+            }
+            .input{
+                margin-left: 200px;
+            }
+            .categorie{
+                font-size: xx-large;
+                color: rgb(85, 199, 85);
+            }
+            .lien1{
+                text-decoration: none;
+                color: rgb(85, 199, 85);
+                font-size: 20px;
+            }
+            .lien2{
+                text-decoration: none;
+                color: rgb(85, 199, 85);   
+                font-size: 20px;
+            }
+            .footer{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 100px;
+                height: 20px;
+                text-align: center;
+                background-color: white;
+                border-top: 1px;
+            }
+            .fa-regular fa-envelope{
+                background-color: white;
+                border: 2px;
+                border-color: green;
+            }
+                /*page inscription*/
+            
+.inscription {
+    text-align: center; /* Pour centrer le texte à l'intérieur de la div */
+    background-color: white;
+    border-style: double;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 700px;
+    
+}
+
+.inscription input{
+    display: inline-block; /* Pour que le formulaire occupe seulement la largeur nécessaire */
+    text-align: left; /* Réinitialiser l'alignement du texte à gauche à l'intérieur du formulaire */
+    height: 40px;
+    width: 500px;
+    
+    
+}
+label{
+    font-size: 25px;
+    margin-left: 100px;
+    text-align: justify;
+}
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+    /*page about*/
+    .about{
+        background-image: url(../Call-to-action.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .barre{
+        text-decoration: none;
+        padding-top: 30px;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+    .menu{
+            
+            text-decoration: none;
+            text-decoration-color: black;
+            padding-top: 0px;
+        
+    }
+    
+    .mission {
+        margin: 5rem 4rem;
+    }
+    
+    .text p {
+        text-align: justify;
+        width: 30rem;
+    }
+    
+    
+    .section2{
+        background-color: #fffefe;
+    }
+    .section3{
+        background-image: url(../Call-to-action.jpg);
+        height: 500px;
+        margin-bottom: 2px;
+        background-repeat: no-repeat;
+    }
+    
+    .about1{
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .about2{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        height: 20px;
+        text-align: center;
+        margin-top:  -50px;
+    }
+
+
+            
+
