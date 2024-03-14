@@ -10,10 +10,10 @@
 <body>
     <h1>Ajouter un article</h1>
 
-    <form action="traitement_ajout.php" method="post">
+    <form action="traitement_ajout.php" method="post" enctype="multipart/form-data">
     <div class="mb-3">
   <label for="formFileMultiple" class="form-label">Photos</label><br>
-  <input class="form-control" type="file" id="formFileMultiple" name="image" multiple><br><br>
+  <input class="form-control" type="file" id="formFileMultiple" name="image"><br><br>
 </div>
 
         <label for="nom">Nom</label><br>
@@ -27,7 +27,7 @@
             <option selected>chosissez la categorie</option>
             <?php 
             $bdd = new PDO('mysql:host=localhost;dbname=ProjetWaxangari', 'root', '');
-            $reqData = $bdd->prepare('SELECT * FROM categorie');
+            $reqData = $bdd->prepare('SELECT * FROM articles');
             $reqData->execute();
 
             while ($datacat = $reqData->fetch()) {
